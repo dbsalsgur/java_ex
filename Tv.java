@@ -4,6 +4,6 @@ class Tv{
 	int channel;
 
 	void power() {power = !power;}
-	void channel1Up () { ++ channel;}
-	void channel1Down() { --channel;}
+	void channelUp () { ++ channel;}
+	void channelDown() { --channel;}
 }
